@@ -25,8 +25,6 @@ def main():
       line_num += 1
 
 def calculateMinimumCost(path_list):
-   print("current list is:")
-   print(path_list)
    accumulated_penalty_list = []
    # minimum_effort to get to staring point is 0
    minimum_effort_list = [sys.maxsize] * (len(path_list))
